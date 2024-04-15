@@ -1,0 +1,26 @@
+relevance score
+  - TF-IDF term frequency - Inverse Document frequency (word being uncommon across other documents)
+
+Solr is web application which runs on the Jetty container which in turn runs on the JVM
+
+Query structure
+  - /select
+  - q
+  - fq
+  - sort
+  - start,rows
+  - fl 
+  - df - (did not understand. Need to check this again)
+
+
+solr document - > http - > update doc service - >  (tokenizer, token filter) <- schema.xml 
+                                                          |
+                                                          |
+                                                  Lucene Index
+
+
+Design the schema 
+  - Schemaless 
+  - Schema API
+
+managed-schema sections
